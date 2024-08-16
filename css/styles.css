@@ -429,8 +429,7 @@ align-items: baseline;
     display: flex;
     flex-direction: column;
     margin-right: 120px;
-    justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer-logo {
