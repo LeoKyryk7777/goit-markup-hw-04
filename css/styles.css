@@ -279,8 +279,6 @@ border-radius: 0 0 4px 4px;
     text-align: center;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
      background: #fff;
-     margin-bottom: 8px;
-    
 }
 
 .team-title {
@@ -299,6 +297,7 @@ border-radius: 0 0 4px 4px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        margin-bottom: 8px;
 }
 
 .ourteam-social{
@@ -323,13 +322,17 @@ border-radius: 0 0 4px 4px;
      height: 40px;
     border-radius: 50%;
 background-color: #4D5AE5;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ourteam-svg{
+.ourteam-svg {
 fill: #f4f4fd;
 
 }
 
+.ourtem-link:hover {
+background-color: #404BBF;
+}
 
 .portfolio {
     padding-top: 120px;
@@ -355,6 +358,37 @@ fill: #f4f4fd;
 .portfolio-item {
 width: calc((100% - 24px * 2) / 3);
 }
+
+.tumb {
+    position: relative;
+    overflow: hidden;
+}
+ .overlay {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background: #4d5ae5;
+    padding: 40px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+     height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .portfolio-item:hover .overlay{
+    transform: translateX(0);
+    
+ }
+
+ .portfolio-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+ }
 
 .portfolio-box {
     padding: 32px 16px;
@@ -383,6 +417,12 @@ width: calc((100% - 24px * 2) / 3);
     background-color: #2e2f42;
     padding: 100px 0;
 }
+
+.footer-div{
+display: flex;
+align-items: baseline;
+}
+
 .foter-text {
     max-width: 264px;
         font-weight: 400;
@@ -395,4 +435,31 @@ width: calc((100% - 24px * 2) / 3);
 .footer-logo {
     display: inline-block;
 margin-bottom: 16px;
+}
+
+.container-logo{
+display: flex;
+margin-right: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.container-social{
+  flex-direction: column;
+}
+.foter-social-text{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
+.footer-link{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
 }
