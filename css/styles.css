@@ -404,6 +404,7 @@ width: calc((100% - 24px * 2) / 3);
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
+
 .portfolio-text {
         font-weight: 400;
         font-size: 16px;
@@ -412,6 +413,7 @@ width: calc((100% - 24px * 2) / 3);
         color: #434455;
 }
 
+/*footer*/
 
 .footer {
     background-color: #2e2f42;
@@ -447,12 +449,12 @@ font-family: "Roboto", sans-serif;
     color: #f4f4fd;
 }
 
-
 .container-social{
     display: flex;
   flex-direction: column;
   margin-right: 80px;
 }
+
 .footer-social-text{
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -462,6 +464,7 @@ font-family: "Roboto", sans-serif;
         color: #fff;
         margin-bottom: 16px;
 }
+
 .footer-items {
     display: flex;
     gap: 16px;
