@@ -314,7 +314,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
    
 }
 
-.ourtem-link{
+.ourteam-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -330,8 +330,8 @@ fill: #f4f4fd;
 
 }
 
-.ourtem-link:hover,
-.ourtem-link:focus {
+.ourteam-link:hover,
+.ourteam-link:focus {
 background-color: #404BBF;
 }
 
